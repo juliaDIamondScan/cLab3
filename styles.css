@@ -1,0 +1,101 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: lightslategrey;
+}
+
+h2, p, .readme-wrapper {
+    text-align: center;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.emphasis {
+    color: fuchsia;
+    font-weight: 700;
+}
+
+.boxes {
+    width: 30em;
+    margin: 1em;
+    padding: 2em;
+    border-width: 5px;
+    border-style: solid;
+    border-color: coral;
+    border-radius: 5px;
+    display: block;
+}
+
+.box-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background: black;
+    position: relative;
+    left: 20px;
+    bottom: -50px;
+}
+
+#box1 {
+    background-color: cornflowerblue;
+}
+
+#box2 {
+    background-color: cyan;
+}
+
+#box3 {
+    background-color: darkkhaki;
+}
+
+#box4 {
+    background-color: darksalmon;
+}
+
+.bold-black {
+    color: black;
+    font-weight: 900;
+}
+
+.narrow-navy {
+    color: navy;
+    font-weight: 500;
+}
+
+.green-machine {
+    color: green;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.original {
+    color: pink;
+}
+
+.additional {
+    color: orange;
+}
+
+#show1 {
+    color: gold;
+}
+#show2 {
+    color: darkgrey
+}
+#show3 {
+    color: brown;
+}
+#show4 {
+    color: purple;
+}
+#show5 {
+    color: teal;
+}
